@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color:#282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header css */
+.header-div
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: white;
+  width: 99vw;
+  height: 100vh;
+  background-image: url('./img/pexels-life-of-pix-316902.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.a-header
+{
+  display: flex;
+  justify-content: space-between;
+  position: inherit;
+  right: 200px;
+  top: 45px;
+  animation: a-button 2s ease 0s 1 normal forwards;
+}
+
+.icon
+{
+  font-size:30px;
+  color: white;
+  background-color: black;
+  border: 4px solid white;
+  border-radius:7px;
+  padding:2.5px;  
+}
+
+.icon:hover
+{
+  color: black;
+  background-color: white;
+  border: 4px solid black;
+}
+
+.description
+{
+  position: relative;
+  top:30px;
+  width: 250px;
+  right: 200px;
+  font-size: 1em;
+  animation: description-header 2s ease 0s 1 normal forwards;
+}
+
+@keyframes description-header{
+  0%{
+    transform: translateY(-60px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+}
+
+.description::before
+{
+  content: '-------------------------------------';
+}
+
+.description::after
+{
+  content: '-------------------------------------';
+}
+
+.Name-header
+{
+  font-family: 'Playpen Sans', cursive;
+  padding-bottom: 2rem;
+  position: inherit;
+  font-size: 2rem;
+  right: 200px;
+  top: 50px;
+  margin-top: 0;
+  text-decoration:overline;
+  animation: Name-header 2s ease 0s 1 normal forwards;
+}
+
+@keyframes Name-header {
+  0%
+  {
+    transform: translateY(-30px);
+  }
+  50%
+  {
+    transform: translateY(0px);
+  }
+}
+
+.p-header
+{
+  font-size: 25px;
+  margin: 5rem;
+  position: inherit;
+  right: 200px;
+  top: 120px;
+  animation: p-header 2s ease 0s 1 normal forwards;
+}
+
+.photo-header img
+{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  vertical-align: middle;
+  filter: grayscale(100%);
+}
+
+.photo-header
+{
+  background-color: white;
+  position: relative;
+  vertical-align: middle;
+  top: -260px;
+  right: -250px;
+  clip-path: circle(50% at 50% 50%);
+  animation: p-header 2s ease 0s 1 normal forwards;
+}
+
+@keyframes p-header {
+  0%
+  {
+    transform: translateY(-120px);
+  }
+  50%
+  {
+    transform: translateY(0px);
+  }
+}
+
+.button-header
+{
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border: 4px solid white;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  animation: a-button 2s ease 0s 1 normal forwards;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bolder;
+  right: 200px;
+  top:40px;
+}
+
+.button-header:hover{
+  border: 4px solid black;
+  color: black;
+  border-radius: 15px;
+  background-color: white;
+}
+
+@keyframes a-button {
+  0%
+  {
+    transform: translateY(-45px);
+  }
+  50%
+  {
+    transform: translateY(0px);
+  }
+}
+
+/* NAVABAR */
+.navbar-div
+{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin-left: auto;
+}
+
+.hamburger
+{
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+  margin-top: 2rem;
+}
+
+.hamburger:hover
+{
+  background-color: #999;
+}
+
+.ul-navbar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border: 1px dotted white;
+}
+
+.ul-navbar li
+{
+  float: right;
+}
+
+.ul-navbar li a
+{
+  display: block;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.ul-navbar li a:hover{
+  background-color: white;
+  color: black;
+}
+
+/* ACHEIVEMENT CSS */
+.achieve-div
+{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  padding:3rem;
+}
+
+.h2-title
+{
+  padding:10px;
+  color:black;
+  background-color:white;
+}
+
+.achieve-header
+{
+  filter: grayscale(100%);
+  transition: all .2s ease-in-out;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 2rem;
+}
+
+.achieve-header:hover
+{
+  border-radius: 1rem;
+  transform: scale(1.2);
+}
+
+.achieve-header img
+{
+  width: 508px;
+  border-radius:1rem 1rem 0 0;
+}
+
+.h3-achieve
+{
+  color: black;
+  width: 29vw;
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+  padding: 0.49rem;
+}
+
+.achieve-header:hover > .h3-achieve
+{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid white;
+  padding: 0.37rem;
+  margin-top: 1rem;
+
+}
+
+
+/* PROJECT WORKS */
+.college-projects, .extracurricular-projects
+{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left: 0;
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap:wrap;
+  font-family: 'PT Sans', sans-serif;
+  justify-content: space-around;
+  position: relative;
+}
+
+.project-button-more
+{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  border: 2px solid white;
+}
+
+.project-button-more1
+{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.project-button-more:hover, .project-button-more1:hover
+{
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  border: 2px solid black;
+}
+
+.project1
+{
+  display: block;
+  block-size: 10px;
+  width:25vw;
+  height: 22vh;
+  padding:2rem 7rem 7rem 7rem;
+  border: 1px solid white;
+  margin: 0 10px 30px 15px;
+  background-color: black;
+  border-radius: 1rem;
+  box-shadow: 10px 5px 5px white;
+  color: white;
+  
+}
+
+.project1:hover
+{
+  box-shadow: 10px 5px 5px black;
+}
+
+.project1 h2
+{
+  margin-bottom: 2rem;
+}
+
+.project1 ul li a, .project1 a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.project1 ul
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project1 a
+{
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  padding: 7px;
+  box-shadow: 0 9px #999;
+  border-radius: 15px;
+}
+
+.project1 ul li
+{
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+.project1:nth-child(7) h2
+{
+  margin-bottom: 0;
+}
+
+.project1 a:hover
+{
+  background-color: black;
+  color: white;
+  text-transform:uppercase;
+  transition: 0.5s;
+}
+
+.project1 a:hover::after
+{
+  content: '  \00bb';
+  transition: 0.4s;
+}
+
+.project1 a:active
+{
+  background-color: black;
+  box-shadow: 0 5px red;
+  transform: translateX(50px);
+}
+
+/* FOOTBAR */
+.foot-connect-social
+{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.foot-connect-social div a
+{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.footer-final
+{
+  background-color: #999;
+  padding: 1rem 0 1rem 0;
+  font-size: 1rem;
+}
+
+.li-extr-certifi
+{
+  list-style-type: none;
+}
+
+.a-credits
+{
+  text-decoration:none;
+  background-color: white;
+  padding:10px;
+  border-radius:1rem;
+  color: black;
+}
+
+.a-credits:hover
+{
+  text-decoration:none;
+  color: white;
+  background-color: black;
+}
+
+
+/* RESPONSIVE WEBSITE CODE */
+/* MEDIA QUERY CSS */
+@media screen and (max-width: 768px)
+{
+  .navbar-div.expanded ul
+  {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: white;
+    border-top: 1px solid black;
+    font-size: 5rem;
+  }
+
+  .navbar-div ul li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  
+  .navbar-div ul li a:hover{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .p-header, .Name-header, .a-header, .button-header
+  {
+    position: relative;
+    right: 5px;
+    top: -50px;
+  }
+  
+  .p-header
+  {
+    font-size:1.5rem;
+    top: 10px;
+  }
+  
+  .Name-header
+  {
+    font-size: 2rem;
+  }
+  
+  .photo-header
+  {
+    position: relative;
+    right: 0px;
+    top: -40px;
+  }
+  
+  *
+  {
+    font-size: 1rem;
+  }
+  
+  .project1 ul li a:hover
+  {
+    text-transform: capitalize;
+  }
+  
+  .project1 ul li a
+  {
+    font-size: 1rem;
+  }
+  
+  .project1 ul li
+  {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project1 ul
+  {
+    margin-top: -1rem;
+    margin-left: -2rem;
+  }
+  
+  .project1 h2
+  {
+    width: 15rem;
+    margin-left: -5rem;
+    font-size: 1.3rem;
+  }
+  
+  .project1 a
+  {
+    font-size: 1rem;
+  }
+  
+  .project1 li:nth-child(3), .project1 li:nth-child(4)
+  {
+    display: none;
+  }
+  
+  .achieve-header
+  {
+    margin-top:1rem;
+  }
+  
+  .achieve-header img
+  {
+    width: 265.5px;
+  }
+  
+  .h3-achieve
+  {
+    width: 250px;
+  }
+  
+  .description
+  {
+    position: relative;
+    top: -70px;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) 
+{
+  
+  .hamburger{
+    display: block;
+  }
+ 
+  .navbar-div ul
+  {
+    display: none;
+  }
+}

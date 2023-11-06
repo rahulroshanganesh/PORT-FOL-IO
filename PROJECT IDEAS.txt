@@ -1,0 +1,10 @@
+https://hugo-coder.netlify.app/
+https://github.com/om2511/Portfolio-Website
+onclick the screen should take from video to website
+
+clip path
+perspective
+aspect ratio
+filters
+is, where, has 
+captions style
