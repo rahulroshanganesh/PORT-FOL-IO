@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/PORT-FOL-IO/static/css/main.398187f8.css",
+    "main.js": "/PORT-FOL-IO/static/js/main.4a8202de.js",
+    "static/js/787.1ed0c42c.chunk.js": "/PORT-FOL-IO/static/js/787.1ed0c42c.chunk.js",
+    "static/media/java_certify.jpg": "/PORT-FOL-IO/static/media/java_certify.d2ea80b98a99054094d6.jpg",
+    "static/media/practi-iee-resize1.jpg": "/PORT-FOL-IO/static/media/practi-iee-resize1.d135b0e352b8ddc4f4be.jpg",
+    "static/media/intro_cyber.jpg": "/PORT-FOL-IO/static/media/intro_cyber.7340fdb0ca0722bfca6d.jpg",
+    "static/media/exceed.jpg": "/PORT-FOL-IO/static/media/exceed.9fec1cd7503fc8d56cfd.jpg",
+    "static/media/aws-resize.png": "/PORT-FOL-IO/static/media/aws-resize.3681c8d0183caf2b5ca2.png",
+    "static/media/pexels-life-of-pix-316902.jpg": "/PORT-FOL-IO/static/media/pexels-life-of-pix-316902.c5654dcb67340b02b79a.jpg",
+    "static/media/linux-kernel.jpg": "/PORT-FOL-IO/static/media/linux-kernel.7b1ceb80319330d9f4ea.jpg",
+    "static/media/IEEE-resize.jpg": "/PORT-FOL-IO/static/media/IEEE-resize.60635aab8bab582ef1d4.jpg",
+    "static/media/bp_IEEE_resize.jpg": "/PORT-FOL-IO/static/media/bp_IEEE_resize.28bb6528e179fb1dc52a.jpg",
+    "static/media/resume.pdf": "/PORT-FOL-IO/static/media/resume.d4e68aa4ba430b4ae459.pdf",
+    "static/media/best-pape-resize.jpg": "/PORT-FOL-IO/static/media/best-pape-resize.12b852c73893b3153502.jpg",
+    "static/media/1-removebg-preview.png": "/PORT-FOL-IO/static/media/1-removebg-preview.8e514200b4f3ee3fc0e0.png",
+    "static/media/certificate of participation Xiaomi ode2code 3.0.jpg": "/PORT-FOL-IO/static/media/certificate of participation Xiaomi ode2code 3.0.f16108fb46e7936073b9.jpg",
+    "static/media/Xiaomi ode2Code 3.0 organised by Xiaomi India Quiz round 1.jpg": "/PORT-FOL-IO/static/media/Xiaomi ode2Code 3.0 organised by Xiaomi India Quiz round 1.8d759c7ccb34ce0e6141.jpg",
+    "static/media/seo-hubspot.png": "/PORT-FOL-IO/static/media/seo-hubspot.c3215a6950715080c356.png",
+    "static/media/Introduction_to_Ethical_Hacking[Great Learning].jpeg": "/PORT-FOL-IO/static/media/Introduction_to_Ethical_Hacking[Great Learning].6041dcaf2e1132dc97c0.jpeg",
+    "static/media/responsive-web-freecodecamp.jpeg": "/PORT-FOL-IO/static/media/responsive-web-freecodecamp.3105eccb4aff6a78c5b1.jpeg",
+    "static/media/sum-intern_malw.jpeg": "/PORT-FOL-IO/static/media/sum-intern_malw.85515076a131e52cdebb.jpeg",
+    "index.html": "/PORT-FOL-IO/index.html",
+    "main.398187f8.css.map": "/PORT-FOL-IO/static/css/main.398187f8.css.map",
+    "main.4a8202de.js.map": "/PORT-FOL-IO/static/js/main.4a8202de.js.map",
+    "787.1ed0c42c.chunk.js.map": "/PORT-FOL-IO/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.398187f8.css",
+    "static/js/main.4a8202de.js"
+  ]
+}
