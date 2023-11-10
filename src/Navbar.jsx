@@ -18,7 +18,7 @@ function Navbar()
                 <li><a href="#Certificates" onClick={handleMenuItemClick}>Course-Certificates</a></li>
                 <li><a href="#Achievement" onClick={handleMenuItemClick}>Achievements</a></li>
                 <li><a href="#Project_work" onClick={handleMenuItemClick}>Project-Work</a></li>
-                <li><a href="http://localhost:3000/" onClick={handleMenuItemClick}>Home</a></li>
+                <li><a href="https://rahulroshanganesh.github.io/PORT-FOL-IO/" onClick={handleMenuItemClick}>Home</a></li>
             </ul>
             <button
                 className="hamburger"
